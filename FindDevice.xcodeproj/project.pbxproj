@@ -17,6 +17,7 @@
 		F9802F72275E1D5100EEE5C1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9802F71275E1D5100EEE5C1 /* Service.swift */; };
 		F9802F74275E1F7C00EEE5C1 /* BluetoothManagerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9802F73275E1F7C00EEE5C1 /* BluetoothManagerManager.swift */; };
 		F9802F78275F750200EEE5C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9802F77275F750200EEE5C1 /* MainView.swift */; };
+		F9802F7B275F774500EEE5C1 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9802F7A275F774500EEE5C1 /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		F9802F71275E1D5100EEE5C1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		F9802F73275E1F7C00EEE5C1 /* BluetoothManagerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManagerManager.swift; sourceTree = "<group>"; };
 		F9802F77275F750200EEE5C1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F9802F7A275F774500EEE5C1 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		F9802F46275E1CDD00EEE5C1 /* FindDevice */ = {
 			isa = PBXGroup;
 			children = (
+				F9802F79275F772F00EEE5C1 /* Service */,
 				F9802F47275E1CDD00EEE5C1 /* FindDeviceApp.swift */,
 				F9802F49275E1CDD00EEE5C1 /* ContentView.swift */,
 				F9802F71275E1D5100EEE5C1 /* Service.swift */,
@@ -134,6 +137,14 @@
 				F9802F64275E1CE500EEE5C1 /* FindDeviceUITestsLaunchTests.swift */,
 			);
 			path = FindDeviceUITests;
+			sourceTree = "<group>";
+		};
+		F9802F79275F772F00EEE5C1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F9802F7A275F774500EEE5C1 /* BLEManager.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9802F74275E1F7C00EEE5C1 /* BluetoothManagerManager.swift in Sources */,
+				F9802F7B275F774500EEE5C1 /* BLEManager.swift in Sources */,
 				F9802F4A275E1CDD00EEE5C1 /* ContentView.swift in Sources */,
 				F9802F48275E1CDD00EEE5C1 /* FindDeviceApp.swift in Sources */,
 				F9802F78275F750200EEE5C1 /* MainView.swift in Sources */,
