@@ -52,6 +52,7 @@
 		F9802F73275E1F7C00EEE5C1 /* BluetoothManagerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManagerManager.swift; sourceTree = "<group>"; };
 		F9802F77275F750200EEE5C1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F9802F7A275F774500EEE5C1 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		F9802F7C275F818000EEE5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 		F9802F46275E1CDD00EEE5C1 /* FindDevice */ = {
 			isa = PBXGroup;
 			children = (
+				F9802F7C275F818000EEE5C1 /* Info.plist */,
 				F9802F79275F772F00EEE5C1 /* Service */,
 				F9802F47275E1CDD00EEE5C1 /* FindDeviceApp.swift */,
 				F9802F49275E1CDD00EEE5C1 /* ContentView.swift */,
@@ -446,6 +448,7 @@
 				DEVELOPMENT_TEAM = 8BH5PUQA84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindDevice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,6 +478,7 @@
 				DEVELOPMENT_TEAM = 8BH5PUQA84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindDevice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
