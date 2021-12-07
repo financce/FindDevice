@@ -12,16 +12,20 @@ struct MainView: View {
     
     var body: some View {
         
-        
-        
         VStack (spacing: 10) {
             
             Text("Bluetooth Devices")
                 .font(.largeTitle)
                 .frame(maxWidth: .infinity, alignment: .center)
             List() {
-                Text("placeholder 1")
-                Text("placeholder 2")
+                ForEach(bleManager.peripherals) { peripheral in
+                    HStack {
+                        Text(peripheral.name)
+                        Spacer()
+                        Text(String(peripheral.rssi))
+                    }
+                }
+                
             }.frame(height: 300)
             
             Spacer()
@@ -48,12 +52,12 @@ struct MainView: View {
             HStack {
                 VStack (spacing: 10) {
                     Button(action: {
-                        print("Start Scanning")
+                        self.bleManager.startScanning()
                     }) {
                         Text("Start Scanning")
                     }
                     Button(action: {
-                        print("Stop Scanning")
+                        self.bleManager.stopScanning()
                     }) {
                         Text("Stop Scanning")
                     }
