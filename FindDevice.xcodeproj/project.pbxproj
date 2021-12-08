@@ -19,6 +19,7 @@
 		F9802F78275F750200EEE5C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9802F77275F750200EEE5C1 /* MainView.swift */; };
 		F9802F7B275F774500EEE5C1 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9802F7A275F774500EEE5C1 /* BLEManager.swift */; };
 		F9802F7F275FA79200EEE5C1 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9802F7E275FA79200EEE5C1 /* DeviceModel.swift */; };
+		F9802F8127608EFC00EEE5C1 /* HeartMonitorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9802F8027608EFC00EEE5C1 /* HeartMonitorService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F9802F7A275F774500EEE5C1 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 		F9802F7C275F818000EEE5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F9802F7E275FA79200EEE5C1 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		F9802F8027608EFC00EEE5C1 /* HeartMonitorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartMonitorService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				F9802F7A275F774500EEE5C1 /* BLEManager.swift */,
+				F9802F8027608EFC00EEE5C1 /* HeartMonitorService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9802F74275E1F7C00EEE5C1 /* BluetoothManagerManager.swift in Sources */,
+				F9802F8127608EFC00EEE5C1 /* HeartMonitorService.swift in Sources */,
 				F9802F7B275F774500EEE5C1 /* BLEManager.swift in Sources */,
 				F9802F7F275FA79200EEE5C1 /* DeviceModel.swift in Sources */,
 				F9802F4A275E1CDD00EEE5C1 /* ContentView.swift in Sources */,
